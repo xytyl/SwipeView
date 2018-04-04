@@ -1,13 +1,8 @@
----
-title: 仿微信侧滑删除的简单实现
-grammar_cjkRuby: true
----
-
 博客地址：https://blog.csdn.net/bjyanxin/article/details/79819856
 
 首先看一下效果图：
 
-![enter description here](./images/SwipeView.gif)
+![enter description here](https://github.com/xytyl/SwipeView/blob/master/SwipeView.gif)
 
 基本思路是自定义一个`ViewGroup`作为`RecyclerView`中的条目，通过手势侧滑拉出删除按钮，动态改变删除按钮的宽度。
 
